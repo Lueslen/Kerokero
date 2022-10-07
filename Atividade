@@ -1,16 +1,12 @@
 1. Crie um código que apresente uma herança.
 
 public class Produto {
-
   public double valorCompra;
   protected double valorVenda;
-
 }
 
 public class Computador extends Produto {
-
-   private String processador;
-
+  private String processador;
 }
 
 
