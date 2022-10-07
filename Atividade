@@ -1,4 +1,4 @@
-1. Crie um código que apresente uma herança.
+1. CRIE UM CODIGO QUE APRESENTE UMA HERANÇA.
 
 public class Produto {
   public double valorCompra;
@@ -10,7 +10,7 @@ public class Computador extends Produto {
 }
 
 
-2. Crie um código que apresente uma implementação de interface.
+2. CRIE UM CODIGO QUE APRESENTE UMA IMPLEMENTAÇÃO DE INTERFACE.
 
 interface Animal {
   public void animalSound(); // interface method (does not have a body)
@@ -38,7 +38,7 @@ class Main {
 }
 
 
-3. Crie um código que apresente uma sobrecarga de método.
+3. CRIE UM CODIGO QUE APRESENTE UMA SOBRECARGA DE MÉTODO.
 
 public class calculadora{
  public int calcula( int a, int b){
@@ -52,12 +52,12 @@ public class calculadora{
 }
 
 
-4. Crie um código que apresente uma relação de composição.
+4. CRIE UM CODIGO QUE APRESENTE UMA RELAÇÃO DE COMPOSIÇÃO.
 
 
 
 
-5. Apresente os códigos dos exercícios anteriores em um diagrama de classes da UML.
+5. APRESENTE OS CÓDIGOS DOS EXERCÍCIOS ANTERIORES EM UM DIAGRAMA DE CLASSES DA UML.
 
 
 
