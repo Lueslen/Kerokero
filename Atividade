@@ -1,5 +1,17 @@
 1. Crie um código que apresente uma herança.
 
+public class Produto {
+
+  public double valorCompra;
+  protected double valorVenda;
+
+}
+
+public class Computador extends Produto {
+
+   private String processador;
+
+}
 
 
 2. Crie um código que apresente uma implementação de interface.
@@ -9,19 +21,16 @@ interface Animal {
   public void sleep(); // interface method (does not have a body)
 }
 
-
 class Pig implements Animal {
   public void animalSound() {
     System.out.println("The pig says: wee wee");
   }
-  
   
   public void sleep() {
     System.out.println("Zzz");
   }
   
 }
-
 
 class Main {
   public static void main(String[] args) {
