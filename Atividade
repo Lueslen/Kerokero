@@ -13,8 +13,8 @@ public class Computador extends Produto {
 2. CRIE UM CODIGO QUE APRESENTE UMA IMPLEMENTAÇÃO DE INTERFACE.
 
 interface Animal {
-  public void animalSound(); // interface method (does not have a body)
-  public void sleep(); // interface method (does not have a body)
+  public void animalSound();
+  public void sleep();
 }
 
 class Pig implements Animal {
